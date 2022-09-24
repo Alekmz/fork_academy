@@ -12,9 +12,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --radial-fill: linear-gradient(180deg, #FF7182 0%, rgba(100, 93, 94, 0) 100%);
 }
 #root{
-  width: 100% ;
+  width: 100%;
+  display: flex;
 }
 
 a {

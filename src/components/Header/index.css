@@ -1,13 +1,60 @@
-.headerFork{
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+/* style at content header */
+.nav-fork{
     display: flex;
     width: 100%;
     align-items: center;
    
 }
-
 .text-slogan{
-    font-size: 48px;
+    font-size: 24px;
     font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+
     font-weight: 500;
     color: #f2f2f2;
+    letter-spacing: 0.1rem;
+    margin-left: -45px;
+}
+.call-to-action{
+    display: flex;
+    width: 100%;
+    padding: 20px 60px;
+    gap: 30px;
+    flex-direction: column;
+}
+.text-cta{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    letter-spacing: 0.2rem;
+    line-height: 100px;
+}
+.button-cta{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    width: 320px;
+    height: 50px;
+    letter-spacing: 0.1rem;
+    background-color: #DD0C5C;
+    color: #f2f2f2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header-animated{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+g > circle:nth-child(1){
+    fill: #645D5E;
 }
