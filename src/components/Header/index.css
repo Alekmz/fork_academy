@@ -1,0 +1,13 @@
+.headerFork{
+    display: flex;
+    width: 100%;
+    align-items: center;
+   
+}
+
+.text-slogan{
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #f2f2f2;
+}
